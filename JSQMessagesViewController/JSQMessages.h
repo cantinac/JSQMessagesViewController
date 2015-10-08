@@ -16,8 +16,6 @@
 //  Released under an MIT license: http://opensource.org/licenses/MIT
 //
 
-#ifndef JSQMessages_JSQMessages_h
-#define JSQMessages_JSQMessages_h
 
 #import "JSQMessagesViewController.h"
 
@@ -27,6 +25,7 @@
 #import "JSQMessagesCollectionViewCellOutgoing.h"
 #import "JSQMessagesTypingIndicatorFooterView.h"
 #import "JSQMessagesLoadEarlierHeaderView.h"
+#import "JSQMessagesMediaPlaceholderView.h"
 
 //  Layout
 #import "JSQMessagesBubbleSizeCalculating.h"
@@ -67,11 +66,10 @@
 #import "JSQMessagesToolbarButtonFactory.h"
 
 //  Categories
+#import "UIDevice+JSQMessages.h"
 #import "JSQSystemSoundPlayer+JSQMessages.h"
 #import "NSString+JSQMessages.h"
 #import "UIColor+JSQMessages.h"
 #import "UIImage+JSQMessages.h"
 #import "UIView+JSQMessages.h"
 #import "NSBundle+JSQMessages.h"
-
-#endif
